@@ -1,0 +1,16 @@
+{
+	"name": "ADFDSQL01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=Cloud;initial catalog=ADFCloud;user id=sql",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2NWY4OWM5OC03Y2ZkLTQyYWItYTNkMi02ZjlmMDg2NGZkNGYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
