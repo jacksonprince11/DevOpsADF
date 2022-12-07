@@ -44,6 +44,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('LookupSQLsampledata').output",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy data1",
