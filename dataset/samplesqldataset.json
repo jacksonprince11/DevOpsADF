@@ -1,0 +1,30 @@
+{
+	"name": "samplesqldataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "samplesqldatabase",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tablename": {
+				"type": "string"
+			},
+			"tableschema": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().tableschema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
+		}
+	}
+}
