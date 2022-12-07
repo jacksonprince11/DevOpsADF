@@ -17,7 +17,16 @@
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabaseCloud_connectionString": {
+			"value": ""
+		},
+		"sampleADLS_accountKey": {
+			"value": ""
+		},
+		"samplesqldatabase_connectionString": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
@@ -25,6 +34,9 @@
 		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"value": "https://adfdemoabhi1.dfs.core.windows.net/"
+		},
+		"sampleADLS_properties_typeProperties_url": {
+			"value": "https://sampledatademo.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""

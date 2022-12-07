@@ -23,9 +23,21 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
 		},
+		"AzureSqlDatabase2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase2'"
+		},
 		"AzureSqlDatabaseCloud_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseCloud'"
+		},
+		"sampleADLS_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'sampleADLS'"
+		},
+		"samplesqldatabase_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'samplesqldatabase'"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
@@ -34,6 +46,10 @@
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adfdemoabhi1.dfs.core.windows.net/"
+		},
+		"sampleADLS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://sampledatademo.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -71,14 +87,26 @@
 					"AzureSqlDatabase1_connectionString": {
 						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
+					"AzureSqlDatabase2_connectionString": {
+						"value": "[parameters('AzureSqlDatabase2_connectionString')]"
+					},
 					"AzureSqlDatabaseCloud_connectionString": {
 						"value": "[parameters('AzureSqlDatabaseCloud_connectionString')]"
+					},
+					"sampleADLS_accountKey": {
+						"value": "[parameters('sampleADLS_accountKey')]"
+					},
+					"samplesqldatabase_connectionString": {
+						"value": "[parameters('samplesqldatabase_connectionString')]"
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
 					"AzureDataLakeStorage2_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage2_properties_typeProperties_url')]"
+					},
+					"sampleADLS_properties_typeProperties_url": {
+						"value": "[parameters('sampleADLS_properties_typeProperties_url')]"
 					}
 				}
 			},
