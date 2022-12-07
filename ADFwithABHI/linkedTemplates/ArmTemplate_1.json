@@ -544,7 +544,7 @@
 						"userProperties": [],
 						"typeProperties": {
 							"items": {
-								"value": "@activity('LookupSQLsampledata').output",
+								"value": "@activity('LookupSQLsampledata').output.value",
 								"type": "Expression"
 							},
 							"activities": [
