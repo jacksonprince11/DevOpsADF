@@ -526,7 +526,8 @@
 									"tablename": "None",
 									"tableschema": "None"
 								}
-							}
+							},
+							"firstRowOnly": false
 						}
 					},
 					{
